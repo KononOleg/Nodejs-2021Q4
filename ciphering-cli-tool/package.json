@@ -2,10 +2,15 @@
   "name": "ciphering-cli-tool",
   "version": "1.0.0",
   "description": "Implement CLI tool that will encode and decode a text by 3 substitution ciphers",
-  "main": "index.js",
-  "author": "",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src --fix ",
+    "prettier": "npx prettier --write ."
+  },
+  "author": "Konon Oleg",
   "license": "ISC",
   "devDependencies": {
-    "eslint-webpack-plugin": "^3.1.0"
+    "eslint": "^8.2.0",
+    "prettier": "^2.4.1"
   }
 }
