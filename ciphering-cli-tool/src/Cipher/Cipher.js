@@ -8,7 +8,8 @@ const decodeChar = (char, shift, code) => {
     let newShift = charCode + shift;
     if (code === "Atbash") newShift = COUNT_LETTERS - newShift;
     else {
-      shift = code === 1 ? shift : -shift;
+      shift = code == 0 ? -shift : shift;
+      newShift = charCode + shift;
       newShift = newShift <= COUNT_LETTERS && newShift >= 1 ? newShift : Math.abs(Math.abs(newShift) - COUNT_LETTERS);
     }
     return String.fromCharCode(newShift + INDEX);
@@ -31,7 +32,7 @@ const cipherCaesar = (str, code) => {
   return convertData(str, 1, code);
 };
 const cipherAtbash = (str) => {
-  return convertData(str, 0, "Atbash");
+  return convertData(str, -1, "Atbash");
 };
 const cipherROT = (str, code) => {
   return convertData(str, 8, code);

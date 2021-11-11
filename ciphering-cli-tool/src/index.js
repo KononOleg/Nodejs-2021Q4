@@ -1,4 +1,3 @@
 const { getArguments } = require("./CLI");
-const { cipherCaesar } = require("./Cipher/Cipher");
-
+const { parseConfig } = require("./parseConfig");
 const { config, input, output } = getArguments();
