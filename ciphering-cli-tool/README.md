@@ -1,9 +1,15 @@
 # Ciphering CLI Tool
 
+## How to run the app:
+
++ clone repo https://github.com/KononOleg/Nodejs-2021Q4
++ then you need to checkout to `ciphering-cli-tool` branch
++ go to directory `ciphering-cli-tool`
++ Write your own commands to CLI!
+For example:  node index -c "A-A-A-R1-R0-R0-R0-C1-C1-A" -i "./input.txt" -o "./output.txt"
 
 
-
-CLI tool should accept 3 options (short alias and full name):
+## CLI tool should accept 3 options (short alias and full name):
 
 1.  **-c, --config**: config for ciphers
 Config is a string with pattern `{XY(-)}n`, where:
