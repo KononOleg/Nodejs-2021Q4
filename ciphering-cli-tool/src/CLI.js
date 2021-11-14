@@ -1,11 +1,12 @@
 const { argv } = require("process");
+const { validateOpton } = require("./streams/validation/validation");
 
 const getArgument = (flag) => {
   const flagFirstIndex = argv.indexOf(flag);
   const flagLastIndex = argv.lastIndexOf(flag);
 
   if (flagFirstIndex !== flagLastIndex) {
-    //ERROR
+    validateOpton(flag);
   } else {
     return flagFirstIndex !== -1 ? argv[flagFirstIndex + 1] : null;
   }

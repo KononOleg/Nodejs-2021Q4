@@ -9,18 +9,14 @@ class ReadStreamClass extends Readable {
   }
 
   _construct(callback) {
-    if (this.filename == null) {
-      process.stdin.on("data", (data) => this.push(data));
-    } else {
-      fs.open(this.filename, (err, fd) => {
-        if (err) {
-          callback(err);
-        } else {
-          this.fd = fd;
-          callback(err);
-        }
-      });
-    }
+    fs.open(this.filename, (err, fd) => {
+      if (err) {
+        callback(err);
+      } else {
+        this.fd = fd;
+        callback(err);
+      }
+    });
   }
 
   _read(n) {
