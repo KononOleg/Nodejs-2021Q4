@@ -1,3 +1,7 @@
-const { getArguments } = require("./CLI");
-const { parseConfig } = require("./parseConfig");
-const { config, input, output } = getArguments();
+const { ProcessedData } = require("./streams/ProcessedData");
+
+const config = "A1",
+  inputPathName = null,
+  outputPathName = null;
+
+ProcessedData(config, inputPathName, outputPathName);
