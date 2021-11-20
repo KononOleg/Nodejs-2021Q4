@@ -25,7 +25,10 @@ class WriteStreamClass extends Writable {
     if (this.fd) {
       fs.close(this.fd, (er) => callback(er || err));
     } else {
-      callback(err);
+      if (err.syscall === "open") {
+        process.stderr.write(`Error: file ${this.filename} is only read-only`);
+        process.exit(9);
+      } else callback(err);
     }
   }
 }
