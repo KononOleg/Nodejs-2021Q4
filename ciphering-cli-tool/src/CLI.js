@@ -1,21 +1,23 @@
 const { argv } = require("process");
-const { validateOpton } = require("./streams/validation/validation");
+const { validateOption } = require("./streams/validation/validation");
 
-const getArgument = (flag) => {
-  const flagFirstIndex = argv.indexOf(flag);
-  const flagLastIndex = argv.lastIndexOf(flag);
+const getArgument = (firstFlag, secondFlag) => {
+  const flagIndex = argv.filter(flag=>flag==firstFlag || flag==secondFlag)
 
-  if (flagFirstIndex !== flagLastIndex) {
-    validateOpton(flag);
+  if (flagIndex.length<=1) {
+
+    return flagIndex.length===0?null:argv[argv.indexOf(flagIndex[0])+1];
   } else {
-    return flagFirstIndex !== -1 ? argv[flagFirstIndex + 1] : null;
+    validateOption(firstFlag);
   }
 };
 
 const getArguments = () => {
-  const config = getArgument("-c");
-  const input = getArgument("-i");
-  const output = getArgument("-o");
+  const config = getArgument("-c", "--config");
+  const input = getArgument("-i", "--input");
+  const output = getArgument("-o", "--output");
+
+  console.log(config)
 
   return { config, input, output };
 };

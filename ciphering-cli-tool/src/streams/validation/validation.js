@@ -15,7 +15,7 @@ const validatePath = (file) => {
   }
 };
 
-const validateOpton = (option) => {
+const validateOption = (option) => {
   process.stderr.write(`Error: option ${option} cannot repeat !`);
   process.exit(9);
 };
@@ -43,4 +43,4 @@ const validateConfig = (config) => {
   }
 };
 
-module.exports = { validatePath, validateConfig, validateOpton };
+module.exports = { validatePath, validateConfig, validateOption };
