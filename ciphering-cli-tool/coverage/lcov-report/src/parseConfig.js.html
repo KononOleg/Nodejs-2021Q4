@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">17.64% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>3/17</span>
+                <span class='fraction'>17/17</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/3</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/1</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">18.75% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>3/16</span>
+                <span class='fraction'>16/16</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -82,53 +82,53 @@
 <a name='L23'></a><a href='#L23'>23</a>
 <a name='L24'></a><a href='#L24'>24</a>
 <a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L26'></a><a href='#L26'>26</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const { cipherCaesar, cipherAtbash, cipherROT } = require("./Cipher/Cipher");
 &nbsp;
-const parseConfig = <span class="fstat-no" title="function not covered" >(c</span>onfig, str) =&gt; {
-  let arrayConfig = <span class="cstat-no" title="statement not covered" >config.split("-");</span>
-<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; arrayConfig.length; i++) {</span>
-    let cipher = <span class="cstat-no" title="statement not covered" >arrayConfig[i].split("");</span>
-    const code = <span class="cstat-no" title="statement not covered" >cipher[1],</span>
-      mark = <span class="cstat-no" title="statement not covered" >cipher[0];</span>
+const parseConfig = (config, str) =&gt; {
+  let arrayConfig = config.split("-");
+  for (let i = 0; i &lt; arrayConfig.length; i++) {
+    let cipher = arrayConfig[i].split("");
+    const code = cipher[1],
+      mark = cipher[0];
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    switch (mark) {</span>
+    switch (mark) {
       case "C":
-<span class="cstat-no" title="statement not covered" >        str = cipherCaesar(str, code);</span>
-<span class="cstat-no" title="statement not covered" >        break;</span>
+        str = cipherCaesar(str, code);
+        break;
       case "R":
-<span class="cstat-no" title="statement not covered" >        str = cipherROT(str, code);</span>
-<span class="cstat-no" title="statement not covered" >        break;</span>
+        str = cipherROT(str, code);
+        break;
       case "A":
-<span class="cstat-no" title="statement not covered" >        str = cipherAtbash(str);</span>
-<span class="cstat-no" title="statement not covered" >        break;</span>
+        str = cipherAtbash(str);
+        break;
     }
   }
-<span class="cstat-no" title="statement not covered" >  return str;</span>
+  return str;
 };
 &nbsp;
 module.exports = { parseConfig };
@@ -139,7 +139,7 @@ module.exports = { parseConfig };
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Sun Nov 21 2021 17:34:34 GMT+0300 (Москва, стандартное время)
+                at Sun Nov 21 2021 17:40:47 GMT+0300 (Москва, стандартное время)
             </div>
         </div>
         <script src="../prettify.js"></script>
