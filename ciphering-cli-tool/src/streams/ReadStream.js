@@ -47,4 +47,4 @@ const ReadStream = (inputPathName) => {
   }
 };
 
-module.exports = { ReadStream };
+module.exports = { ReadStreamClass, ReadStream };

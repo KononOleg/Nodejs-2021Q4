@@ -1,4 +1,4 @@
-const { validateConfig, validateOption } = require("../src/streams/validation/validation");
+const { validateOption } = require("../src/streams/validation/validation");
 const { ProcessedData } = require("../src/streams/ProcessedData");
 
 describe("Error scenarios:", () => {
@@ -43,7 +43,7 @@ describe("Error scenarios:", () => {
 describe("Success scenarios:", () => {
   test("User passes correct sequence of symbols as argument for --config that matches regular expression.", () => {
     expect(() => {
-      validateConfig("C1-C1-A-R1");
+      ProcessedData("C1-C1-A-R1", "./input.txt", "./output.txt");
     }).not.toThrow();
   });
 });

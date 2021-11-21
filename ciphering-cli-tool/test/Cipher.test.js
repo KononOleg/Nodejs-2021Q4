@@ -1,28 +1,23 @@
 const { cipherCaesar, cipherAtbash, cipherROT } = require("../src/Cipher/Cipher");
 
 describe("Cipher:", () => {
+  const mock = jest.fn().mockImplementation((cipher) => cipher);
   test("Cipher Caesar encode", () => {
-    const res = cipherCaesar("A", 1);
-    expect(res).toBe("B");
+    expect(mock(cipherCaesar("A", 1))).toBe("B");
   });
   test("Cipher Atbash encode", () => {
-    const res = cipherAtbash("A");
-    expect(res).toBe("Z");
+    expect(mock(cipherAtbash("A"))).toBe("Z");
   });
   test("Cipher Rot8", () => {
-    const res = cipherROT("A", 1);
-    expect(res).toBe("I");
+    expect(mock(cipherROT("A", 1))).toBe("I");
   });
   test("Cipher Rot8 decode", () => {
-    const res = cipherROT("A", 0);
-    expect(res).toBe("S");
+    expect(mock(cipherROT("A", 0))).toBe("S");
   });
   test("Cipher Caesar encode lower case ", () => {
-    const res = cipherCaesar("a", 1);
-    expect(res).toBe("b");
+    expect(mock(cipherCaesar("a", 1))).toBe("b");
   });
   test("Cipher Caesar encode not a letter ", () => {
-    const res = cipherCaesar("_", 1);
-    expect(res).toBe("_");
+    expect(mock(cipherCaesar("_", 1))).toBe("_");
   });
 });
