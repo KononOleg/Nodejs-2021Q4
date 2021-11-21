@@ -1,5 +1,5 @@
-
-const { validatePath, validateConfig, validateOption } = require("../src/streams/validation/validation");
+const { validateConfig, validateOption } = require("../src/streams/validation/validation");
+const { ProcessedData } = require("../src/streams/ProcessedData");
 
 describe("Error scenarios:", () => {
   let mockExit;
@@ -20,22 +20,22 @@ describe("Error scenarios:", () => {
   });
   test("User doesn't pass -c or --config argument.", () => {
     expect(() => {
-      validateConfig(null);
+      ProcessedData(null, null, null);
     }).toThrow();
   });
   test("User passes -i argument with path that doesn't exist or with no read access.", () => {
     expect(() => {
-      validatePath("./src/input.txt");
+      ProcessedData(null, "./src/input.txt", null);
     }).toThrow();
   });
   test("User passes -o argument with path to directory that doesn't exist.", () => {
     expect(() => {
-      validatePath("./src/output.txt");
+      ProcessedData(null, null, "./src/output.txt");
     }).toThrow();
   });
   test("User passes incorrent symbols in argument for --config.", () => {
     expect(() => {
-      validateConfig("C1-C1-A-R2");
+      ProcessedData("C1-C1-A-R2", null, null);
     }).toThrow();
   });
 });
