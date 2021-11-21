@@ -1,7 +1,6 @@
 const { cipherCaesar, cipherAtbash, cipherROT } = require("../src/Cipher/Cipher");
-
+const { mock } = require("../mock/mock");
 describe("Cipher:", () => {
-  const mock = jest.fn().mockImplementation((cipher) => cipher);
   test("Cipher Caesar encode", () => {
     expect(mock(cipherCaesar("A", 1))).toBe("B");
   });
