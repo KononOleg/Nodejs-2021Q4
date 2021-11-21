@@ -5,12 +5,17 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src --fix ",
-    "prettier": "npx prettier --write ."
+    "prettier": "npx prettier --write .",
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "author": "Konon Oleg",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.2.0",
     "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "jest": "^27.3.1"
   }
 }

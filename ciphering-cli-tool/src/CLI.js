@@ -16,8 +16,6 @@ const getArguments = () => {
   const input = getArgument("-i", "--input");
   const output = getArgument("-o", "--output");
 
-  console.log(config);
-
   return { config, input, output };
 };
 
