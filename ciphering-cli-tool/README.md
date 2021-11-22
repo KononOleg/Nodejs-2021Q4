@@ -2,6 +2,6 @@
 ## Run test
 
 ```bash
- npm run test
- npm run test coverage
+ npm test
+ npm run coverage
 ```
