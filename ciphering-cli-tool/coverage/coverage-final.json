@@ -1,0 +1,837 @@
+{
+  "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\mock\\mock.js": {
+    "path": "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\mock\\mock.js",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 13 }, "end": { "line": 1, "column": 61 } },
+      "1": { "start": { "line": 1, "column": 54 }, "end": { "line": 1, "column": 60 } },
+      "2": { "start": { "line": 3, "column": 0 }, "end": { "line": 3, "column": 23 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 1, "column": 42 }, "end": { "line": 1, "column": 43 } },
+        "loc": { "start": { "line": 1, "column": 54 }, "end": { "line": 1, "column": 60 } },
+        "line": 1
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 1, "1": 6, "2": 1 },
+    "f": { "0": 6 },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "525d61ce8a88917cf1429249464ec8ff2f4c6980"
+  },
+  "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\parseConfig.js": {
+    "path": "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\parseConfig.js",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 50 }, "end": { "line": 1, "column": 76 } },
+      "1": { "start": { "line": 3, "column": 20 }, "end": { "line": 23, "column": 1 } },
+      "2": { "start": { "line": 4, "column": 20 }, "end": { "line": 4, "column": 37 } },
+      "3": { "start": { "line": 5, "column": 2 }, "end": { "line": 21, "column": 3 } },
+      "4": { "start": { "line": 5, "column": 15 }, "end": { "line": 5, "column": 16 } },
+      "5": { "start": { "line": 6, "column": 17 }, "end": { "line": 6, "column": 41 } },
+      "6": { "start": { "line": 7, "column": 17 }, "end": { "line": 7, "column": 26 } },
+      "7": { "start": { "line": 8, "column": 13 }, "end": { "line": 8, "column": 22 } },
+      "8": { "start": { "line": 10, "column": 4 }, "end": { "line": 20, "column": 5 } },
+      "9": { "start": { "line": 12, "column": 8 }, "end": { "line": 12, "column": 38 } },
+      "10": { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 14 } },
+      "11": { "start": { "line": 15, "column": 8 }, "end": { "line": 15, "column": 35 } },
+      "12": { "start": { "line": 16, "column": 8 }, "end": { "line": 16, "column": 14 } },
+      "13": { "start": { "line": 18, "column": 8 }, "end": { "line": 18, "column": 32 } },
+      "14": { "start": { "line": 19, "column": 8 }, "end": { "line": 19, "column": 14 } },
+      "15": { "start": { "line": 22, "column": 2 }, "end": { "line": 22, "column": 13 } },
+      "16": { "start": { "line": 25, "column": 0 }, "end": { "line": 25, "column": 33 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 3, "column": 20 }, "end": { "line": 3, "column": 21 } },
+        "loc": { "start": { "line": 3, "column": 37 }, "end": { "line": 23, "column": 1 } },
+        "line": 3
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 10, "column": 4 }, "end": { "line": 20, "column": 5 } },
+        "type": "switch",
+        "locations": [
+          { "start": { "line": 11, "column": 6 }, "end": { "line": 13, "column": 14 } },
+          { "start": { "line": 14, "column": 6 }, "end": { "line": 16, "column": 14 } },
+          { "start": { "line": 17, "column": 6 }, "end": { "line": 19, "column": 14 } }
+        ],
+        "line": 10
+      }
+    },
+    "s": { "0": 2, "1": 2, "2": 1, "3": 1, "4": 1, "5": 4, "6": 4, "7": 4, "8": 4, "9": 2, "10": 2, "11": 1, "12": 1, "13": 1, "14": 1, "15": 1, "16": 2 },
+    "f": { "0": 1 },
+    "b": { "0": [2, 1, 1] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "6db5b1ba7e48bdbd67d367ea61d90ab0b2a47a7a"
+  },
+  "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\Cipher\\Cipher.js": {
+    "path": "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\Cipher\\Cipher.js",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 22 }, "end": { "line": 1, "column": 24 } },
+      "1": { "start": { "line": 2, "column": 10 }, "end": { "line": 2, "column": 12 } },
+      "2": { "start": { "line": 4, "column": 19 }, "end": { "line": 17, "column": 1 } },
+      "3": { "start": { "line": 5, "column": 17 }, "end": { "line": 5, "column": 42 } },
+      "4": { "start": { "line": 7, "column": 2 }, "end": { "line": 16, "column": 21 } },
+      "5": { "start": { "line": 8, "column": 19 }, "end": { "line": 8, "column": 35 } },
+      "6": { "start": { "line": 9, "column": 4 }, "end": { "line": 14, "column": 5 } },
+      "7": { "start": { "line": 9, "column": 27 }, "end": { "line": 9, "column": 63 } },
+      "8": { "start": { "line": 11, "column": 6 }, "end": { "line": 11, "column": 41 } },
+      "9": { "start": { "line": 12, "column": 6 }, "end": { "line": 12, "column": 34 } },
+      "10": { "start": { "line": 13, "column": 6 }, "end": { "line": 13, "column": 118 } },
+      "11": { "start": { "line": 15, "column": 4 }, "end": { "line": 15, "column": 49 } },
+      "12": { "start": { "line": 16, "column": 9 }, "end": { "line": 16, "column": 21 } },
+      "13": { "start": { "line": 19, "column": 20 }, "end": { "line": 29, "column": 1 } },
+      "14": { "start": { "line": 20, "column": 12 }, "end": { "line": 20, "column": 14 } },
+      "15": { "start": { "line": 21, "column": 2 }, "end": { "line": 27, "column": 3 } },
+      "16": { "start": { "line": 21, "column": 15 }, "end": { "line": 21, "column": 16 } },
+      "17": { "start": { "line": 22, "column": 4 }, "end": { "line": 26, "column": 5 } },
+      "18": { "start": { "line": 23, "column": 6 }, "end": { "line": 23, "column": 73 } },
+      "19": { "start": { "line": 25, "column": 6 }, "end": { "line": 25, "column": 45 } },
+      "20": { "start": { "line": 28, "column": 2 }, "end": { "line": 28, "column": 13 } },
+      "21": { "start": { "line": 31, "column": 21 }, "end": { "line": 33, "column": 1 } },
+      "22": { "start": { "line": 32, "column": 2 }, "end": { "line": 32, "column": 35 } },
+      "23": { "start": { "line": 34, "column": 21 }, "end": { "line": 36, "column": 1 } },
+      "24": { "start": { "line": 35, "column": 2 }, "end": { "line": 35, "column": 40 } },
+      "25": { "start": { "line": 37, "column": 18 }, "end": { "line": 39, "column": 1 } },
+      "26": { "start": { "line": 38, "column": 2 }, "end": { "line": 38, "column": 35 } },
+      "27": { "start": { "line": 41, "column": 0 }, "end": { "line": 41, "column": 59 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 4, "column": 19 }, "end": { "line": 4, "column": 20 } },
+        "loc": { "start": { "line": 4, "column": 42 }, "end": { "line": 17, "column": 1 } },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 19, "column": 20 }, "end": { "line": 19, "column": 21 } },
+        "loc": { "start": { "line": 19, "column": 42 }, "end": { "line": 29, "column": 1 } },
+        "line": 19
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 31, "column": 21 }, "end": { "line": 31, "column": 22 } },
+        "loc": { "start": { "line": 31, "column": 36 }, "end": { "line": 33, "column": 1 } },
+        "line": 31
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": { "start": { "line": 34, "column": 21 }, "end": { "line": 34, "column": 22 } },
+        "loc": { "start": { "line": 34, "column": 30 }, "end": { "line": 36, "column": 1 } },
+        "line": 34
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": { "start": { "line": 37, "column": 18 }, "end": { "line": 37, "column": 19 } },
+        "loc": { "start": { "line": 37, "column": 33 }, "end": { "line": 39, "column": 1 } },
+        "line": 37
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 7, "column": 2 }, "end": { "line": 16, "column": 21 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 7, "column": 2 }, "end": { "line": 16, "column": 21 } },
+          { "start": { "line": 16, "column": 9 }, "end": { "line": 16, "column": 21 } }
+        ],
+        "line": 7
+      },
+      "1": {
+        "loc": { "start": { "line": 7, "column": 6 }, "end": { "line": 7, "column": 48 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 7, "column": 6 }, "end": { "line": 7, "column": 19 } },
+          { "start": { "line": 7, "column": 23 }, "end": { "line": 7, "column": 48 } }
+        ],
+        "line": 7
+      },
+      "2": {
+        "loc": { "start": { "line": 9, "column": 4 }, "end": { "line": 14, "column": 5 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 9, "column": 4 }, "end": { "line": 14, "column": 5 } },
+          { "start": { "line": 10, "column": 9 }, "end": { "line": 14, "column": 5 } }
+        ],
+        "line": 9
+      },
+      "3": {
+        "loc": { "start": { "line": 11, "column": 14 }, "end": { "line": 11, "column": 40 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 11, "column": 26 }, "end": { "line": 11, "column": 32 } },
+          { "start": { "line": 11, "column": 35 }, "end": { "line": 11, "column": 40 } }
+        ],
+        "line": 11
+      },
+      "4": {
+        "loc": { "start": { "line": 13, "column": 17 }, "end": { "line": 13, "column": 117 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 13, "column": 62 }, "end": { "line": 13, "column": 70 } },
+          { "start": { "line": 13, "column": 73 }, "end": { "line": 13, "column": 117 } }
+        ],
+        "line": 13
+      },
+      "5": {
+        "loc": { "start": { "line": 13, "column": 17 }, "end": { "line": 13, "column": 59 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 13, "column": 17 }, "end": { "line": 13, "column": 42 } },
+          { "start": { "line": 13, "column": 46 }, "end": { "line": 13, "column": 59 } }
+        ],
+        "line": 13
+      },
+      "6": {
+        "loc": { "start": { "line": 22, "column": 4 }, "end": { "line": 26, "column": 5 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 22, "column": 4 }, "end": { "line": 26, "column": 5 } },
+          { "start": { "line": 24, "column": 11 }, "end": { "line": 26, "column": 5 } }
+        ],
+        "line": 22
+      }
+    },
+    "s": {
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "3": 154,
+      "4": 154,
+      "5": 125,
+      "6": 125,
+      "7": 31,
+      "8": 94,
+      "9": 94,
+      "10": 94,
+      "11": 125,
+      "12": 29,
+      "13": 3,
+      "14": 10,
+      "15": 10,
+      "16": 10,
+      "17": 154,
+      "18": 142,
+      "19": 12,
+      "20": 10,
+      "21": 3,
+      "22": 5,
+      "23": 3,
+      "24": 2,
+      "25": 3,
+      "26": 3,
+      "27": 3
+    },
+    "f": { "0": 154, "1": 10, "2": 5, "3": 2, "4": 3 },
+    "b": { "0": [125, 29], "1": [154, 126], "2": [31, 94], "3": [31, 63], "4": [82, 12], "5": [94, 93], "6": [142, 12] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "87b3cd1798542907db2e795b43c125e98c34101d"
+  },
+  "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\ProcessedData.js": {
+    "path": "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\ProcessedData.js",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 21 }, "end": { "line": 1, "column": 38 } },
+      "1": { "start": { "line": 2, "column": 23 }, "end": { "line": 2, "column": 46 } },
+      "2": { "start": { "line": 3, "column": 24 }, "end": { "line": 3, "column": 48 } },
+      "3": { "start": { "line": 4, "column": 28 }, "end": { "line": 4, "column": 56 } },
+      "4": { "start": { "line": 5, "column": 41 }, "end": { "line": 5, "column": 75 } },
+      "5": { "start": { "line": 7, "column": 22 }, "end": { "line": 18, "column": 1 } },
+      "6": { "start": { "line": 8, "column": 2 }, "end": { "line": 8, "column": 30 } },
+      "7": { "start": { "line": 9, "column": 2 }, "end": { "line": 9, "column": 31 } },
+      "8": { "start": { "line": 10, "column": 2 }, "end": { "line": 10, "column": 25 } },
+      "9": { "start": { "line": 12, "column": 2 }, "end": { "line": 17, "column": 5 } },
+      "10": { "start": { "line": 13, "column": 4 }, "end": { "line": 16, "column": 5 } },
+      "11": { "start": { "line": 14, "column": 6 }, "end": { "line": 14, "column": 32 } },
+      "12": { "start": { "line": 15, "column": 6 }, "end": { "line": 15, "column": 22 } },
+      "13": { "start": { "line": 20, "column": 0 }, "end": { "line": 20, "column": 35 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 7, "column": 22 }, "end": { "line": 7, "column": 23 } },
+        "loc": { "start": { "line": 7, "column": 65 }, "end": { "line": 18, "column": 1 } },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 12, "column": 92 }, "end": { "line": 12, "column": 93 } },
+        "loc": { "start": { "line": 12, "column": 101 }, "end": { "line": 17, "column": 3 } },
+        "line": 12
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 13, "column": 4 }, "end": { "line": 16, "column": 5 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 13, "column": 4 }, "end": { "line": 16, "column": 5 } },
+          { "start": {}, "end": {} }
+        ],
+        "line": 13
+      }
+    },
+    "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 5, "7": 4, "8": 3, "9": 1, "10": 0, "11": 0, "12": 0, "13": 1 },
+    "f": { "0": 5, "1": 0 },
+    "b": { "0": [0, 0] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fc36635b44afcb97adf5860885fc9303d6cf97ec"
+  },
+  "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\ReadStream.js": {
+    "path": "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\ReadStream.js",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 21 }, "end": { "line": 1, "column": 38 } },
+      "1": { "start": { "line": 2, "column": 11 }, "end": { "line": 2, "column": 24 } },
+      "2": { "start": { "line": 6, "column": 4 }, "end": { "line": 6, "column": 12 } },
+      "3": { "start": { "line": 7, "column": 4 }, "end": { "line": 7, "column": 29 } },
+      "4": { "start": { "line": 8, "column": 4 }, "end": { "line": 8, "column": 19 } },
+      "5": { "start": { "line": 12, "column": 4 }, "end": { "line": 19, "column": 7 } },
+      "6": { "start": { "line": 13, "column": 6 }, "end": { "line": 18, "column": 7 } },
+      "7": { "start": { "line": 14, "column": 8 }, "end": { "line": 14, "column": 22 } },
+      "8": { "start": { "line": 16, "column": 8 }, "end": { "line": 16, "column": 21 } },
+      "9": { "start": { "line": 17, "column": 8 }, "end": { "line": 17, "column": 22 } },
+      "10": { "start": { "line": 23, "column": 16 }, "end": { "line": 23, "column": 31 } },
+      "11": { "start": { "line": 24, "column": 4 }, "end": { "line": 30, "column": 7 } },
+      "12": { "start": { "line": 25, "column": 6 }, "end": { "line": 29, "column": 7 } },
+      "13": { "start": { "line": 26, "column": 8 }, "end": { "line": 26, "column": 26 } },
+      "14": { "start": { "line": 28, "column": 8 }, "end": { "line": 28, "column": 66 } },
+      "15": { "start": { "line": 34, "column": 4 }, "end": { "line": 38, "column": 5 } },
+      "16": { "start": { "line": 35, "column": 6 }, "end": { "line": 35, "column": 53 } },
+      "17": { "start": { "line": 35, "column": 32 }, "end": { "line": 35, "column": 51 } },
+      "18": { "start": { "line": 37, "column": 6 }, "end": { "line": 37, "column": 20 } },
+      "19": { "start": { "line": 41, "column": 19 }, "end": { "line": 48, "column": 1 } },
+      "20": { "start": { "line": 42, "column": 2 }, "end": { "line": 47, "column": 3 } },
+      "21": { "start": { "line": 43, "column": 15 }, "end": { "line": 43, "column": 49 } },
+      "22": { "start": { "line": 44, "column": 4 }, "end": { "line": 44, "column": 14 } },
+      "23": { "start": { "line": 46, "column": 4 }, "end": { "line": 46, "column": 25 } },
+      "24": { "start": { "line": 50, "column": 0 }, "end": { "line": 50, "column": 49 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 5, "column": 2 }, "end": { "line": 5, "column": 3 } },
+        "loc": { "start": { "line": 5, "column": 24 }, "end": { "line": 9, "column": 3 } },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 11, "column": 2 }, "end": { "line": 11, "column": 3 } },
+        "loc": { "start": { "line": 11, "column": 23 }, "end": { "line": 20, "column": 3 } },
+        "line": 11
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 12, "column": 27 }, "end": { "line": 12, "column": 28 } },
+        "loc": { "start": { "line": 12, "column": 40 }, "end": { "line": 19, "column": 5 } },
+        "line": 12
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": { "start": { "line": 22, "column": 2 }, "end": { "line": 22, "column": 3 } },
+        "loc": { "start": { "line": 22, "column": 11 }, "end": { "line": 31, "column": 3 } },
+        "line": 22
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": { "start": { "line": 24, "column": 38 }, "end": { "line": 24, "column": 39 } },
+        "loc": { "start": { "line": 24, "column": 58 }, "end": { "line": 30, "column": 5 } },
+        "line": 24
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": { "start": { "line": 33, "column": 2 }, "end": { "line": 33, "column": 3 } },
+        "loc": { "start": { "line": 33, "column": 26 }, "end": { "line": 39, "column": 3 } },
+        "line": 33
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": { "start": { "line": 35, "column": 24 }, "end": { "line": 35, "column": 25 } },
+        "loc": { "start": { "line": 35, "column": 32 }, "end": { "line": 35, "column": 51 } },
+        "line": 35
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": { "start": { "line": 41, "column": 19 }, "end": { "line": 41, "column": 20 } },
+        "loc": { "start": { "line": 41, "column": 38 }, "end": { "line": 48, "column": 1 } },
+        "line": 41
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 13, "column": 6 }, "end": { "line": 18, "column": 7 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 13, "column": 6 }, "end": { "line": 18, "column": 7 } },
+          { "start": { "line": 15, "column": 13 }, "end": { "line": 18, "column": 7 } }
+        ],
+        "line": 13
+      },
+      "1": {
+        "loc": { "start": { "line": 25, "column": 6 }, "end": { "line": 29, "column": 7 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 25, "column": 6 }, "end": { "line": 29, "column": 7 } },
+          { "start": { "line": 27, "column": 13 }, "end": { "line": 29, "column": 7 } }
+        ],
+        "line": 25
+      },
+      "2": {
+        "loc": { "start": { "line": 28, "column": 18 }, "end": { "line": 28, "column": 64 } },
+        "type": "cond-expr",
+        "locations": [
+          { "start": { "line": 28, "column": 34 }, "end": { "line": 28, "column": 57 } },
+          { "start": { "line": 28, "column": 60 }, "end": { "line": 28, "column": 64 } }
+        ],
+        "line": 28
+      },
+      "3": {
+        "loc": { "start": { "line": 34, "column": 4 }, "end": { "line": 38, "column": 5 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 34, "column": 4 }, "end": { "line": 38, "column": 5 } },
+          { "start": { "line": 36, "column": 11 }, "end": { "line": 38, "column": 5 } }
+        ],
+        "line": 34
+      },
+      "4": {
+        "loc": { "start": { "line": 35, "column": 41 }, "end": { "line": 35, "column": 50 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 35, "column": 41 }, "end": { "line": 35, "column": 43 } },
+          { "start": { "line": 35, "column": 47 }, "end": { "line": 35, "column": 50 } }
+        ],
+        "line": 35
+      },
+      "5": {
+        "loc": { "start": { "line": 42, "column": 2 }, "end": { "line": 47, "column": 3 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 42, "column": 2 }, "end": { "line": 47, "column": 3 } },
+          { "start": { "line": 45, "column": 9 }, "end": { "line": 47, "column": 3 } }
+        ],
+        "line": 42
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 0,
+      "24": 1
+    },
+    "f": { "0": 1, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 1 },
+    "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0], "3": [0, 0], "4": [0, 0], "5": [1, 0] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e4fe21e6ca6a84bec3d4505926c05994aac090d6"
+  },
+  "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\TransformStream.js": {
+    "path": "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\TransformStream.js",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 24 }, "end": { "line": 1, "column": 49 } },
+      "1": { "start": { "line": 2, "column": 22 }, "end": { "line": 2, "column": 39 } },
+      "2": { "start": { "line": 4, "column": 24 }, "end": { "line": 11, "column": 1 } },
+      "3": { "start": { "line": 5, "column": 2 }, "end": { "line": 10, "column": 5 } },
+      "4": { "start": { "line": 7, "column": 6 }, "end": { "line": 7, "column": 55 } },
+      "5": { "start": { "line": 8, "column": 6 }, "end": { "line": 8, "column": 17 } },
+      "6": { "start": { "line": 13, "column": 0 }, "end": { "line": 13, "column": 37 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 4, "column": 24 }, "end": { "line": 4, "column": 25 } },
+        "loc": { "start": { "line": 4, "column": 36 }, "end": { "line": 11, "column": 1 } },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 6, "column": 4 }, "end": { "line": 6, "column": 5 } },
+        "loc": { "start": { "line": 6, "column": 41 }, "end": { "line": 9, "column": 5 } },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 0, "5": 0, "6": 1 },
+    "f": { "0": 1, "1": 0 },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "dad9914abfe5135afd4ed9477440ed04908ebec0"
+  },
+  "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\WriteStream.js": {
+    "path": "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\WriteStream.js",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 21 }, "end": { "line": 1, "column": 38 } },
+      "1": { "start": { "line": 2, "column": 11 }, "end": { "line": 2, "column": 24 } },
+      "2": { "start": { "line": 6, "column": 4 }, "end": { "line": 6, "column": 12 } },
+      "3": { "start": { "line": 7, "column": 4 }, "end": { "line": 7, "column": 29 } },
+      "4": { "start": { "line": 11, "column": 4 }, "end": { "line": 18, "column": 7 } },
+      "5": { "start": { "line": 12, "column": 6 }, "end": { "line": 17, "column": 7 } },
+      "6": { "start": { "line": 13, "column": 8 }, "end": { "line": 13, "column": 22 } },
+      "7": { "start": { "line": 15, "column": 8 }, "end": { "line": 15, "column": 21 } },
+      "8": { "start": { "line": 16, "column": 8 }, "end": { "line": 16, "column": 22 } },
+      "9": { "start": { "line": 21, "column": 4 }, "end": { "line": 21, "column": 39 } },
+      "10": { "start": { "line": 25, "column": 4 }, "end": { "line": 32, "column": 5 } },
+      "11": { "start": { "line": 26, "column": 6 }, "end": { "line": 26, "column": 53 } },
+      "12": { "start": { "line": 26, "column": 32 }, "end": { "line": 26, "column": 51 } },
+      "13": { "start": { "line": 28, "column": 6 }, "end": { "line": 31, "column": 27 } },
+      "14": { "start": { "line": 29, "column": 8 }, "end": { "line": 29, "column": 79 } },
+      "15": { "start": { "line": 30, "column": 8 }, "end": { "line": 30, "column": 24 } },
+      "16": { "start": { "line": 31, "column": 13 }, "end": { "line": 31, "column": 27 } },
+      "17": { "start": { "line": 36, "column": 20 }, "end": { "line": 43, "column": 1 } },
+      "18": { "start": { "line": 37, "column": 2 }, "end": { "line": 42, "column": 3 } },
+      "19": { "start": { "line": 38, "column": 15 }, "end": { "line": 38, "column": 51 } },
+      "20": { "start": { "line": 39, "column": 4 }, "end": { "line": 39, "column": 14 } },
+      "21": { "start": { "line": 41, "column": 4 }, "end": { "line": 41, "column": 26 } },
+      "22": { "start": { "line": 45, "column": 0 }, "end": { "line": 45, "column": 33 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 5, "column": 2 }, "end": { "line": 5, "column": 3 } },
+        "loc": { "start": { "line": 5, "column": 24 }, "end": { "line": 8, "column": 3 } },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 10, "column": 2 }, "end": { "line": 10, "column": 3 } },
+        "loc": { "start": { "line": 10, "column": 23 }, "end": { "line": 19, "column": 3 } },
+        "line": 10
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 11, "column": 32 }, "end": { "line": 11, "column": 33 } },
+        "loc": { "start": { "line": 11, "column": 45 }, "end": { "line": 18, "column": 5 } },
+        "line": 11
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": { "start": { "line": 20, "column": 2 }, "end": { "line": 20, "column": 3 } },
+        "loc": { "start": { "line": 20, "column": 34 }, "end": { "line": 22, "column": 3 } },
+        "line": 20
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": { "start": { "line": 24, "column": 2 }, "end": { "line": 24, "column": 3 } },
+        "loc": { "start": { "line": 24, "column": 26 }, "end": { "line": 33, "column": 3 } },
+        "line": 24
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": { "start": { "line": 26, "column": 24 }, "end": { "line": 26, "column": 25 } },
+        "loc": { "start": { "line": 26, "column": 32 }, "end": { "line": 26, "column": 51 } },
+        "line": 26
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": { "start": { "line": 36, "column": 20 }, "end": { "line": 36, "column": 21 } },
+        "loc": { "start": { "line": 36, "column": 40 }, "end": { "line": 43, "column": 1 } },
+        "line": 36
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 12, "column": 6 }, "end": { "line": 17, "column": 7 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 12, "column": 6 }, "end": { "line": 17, "column": 7 } },
+          { "start": { "line": 14, "column": 13 }, "end": { "line": 17, "column": 7 } }
+        ],
+        "line": 12
+      },
+      "1": {
+        "loc": { "start": { "line": 25, "column": 4 }, "end": { "line": 32, "column": 5 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 25, "column": 4 }, "end": { "line": 32, "column": 5 } },
+          { "start": { "line": 27, "column": 11 }, "end": { "line": 32, "column": 5 } }
+        ],
+        "line": 25
+      },
+      "2": {
+        "loc": { "start": { "line": 26, "column": 41 }, "end": { "line": 26, "column": 50 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 26, "column": 41 }, "end": { "line": 26, "column": 43 } },
+          { "start": { "line": 26, "column": 47 }, "end": { "line": 26, "column": 50 } }
+        ],
+        "line": 26
+      },
+      "3": {
+        "loc": { "start": { "line": 28, "column": 6 }, "end": { "line": 31, "column": 27 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 28, "column": 6 }, "end": { "line": 31, "column": 27 } },
+          { "start": { "line": 31, "column": 13 }, "end": { "line": 31, "column": 27 } }
+        ],
+        "line": 28
+      },
+      "4": {
+        "loc": { "start": { "line": 37, "column": 2 }, "end": { "line": 42, "column": 3 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 37, "column": 2 }, "end": { "line": 42, "column": 3 } },
+          { "start": { "line": 40, "column": 9 }, "end": { "line": 42, "column": 3 } }
+        ],
+        "line": 37
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 0,
+      "22": 1
+    },
+    "f": { "0": 1, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 1 },
+    "b": { "0": [0, 0], "1": [0, 0], "2": [0, 0], "3": [0, 0], "4": [1, 0] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "40de3abf6f65900821bfb01059d8c26a7a30d6c6"
+  },
+  "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\validation\\Error.js": {
+    "path": "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\validation\\Error.js",
+    "statementMap": {
+      "0": { "start": { "line": 3, "column": 4 }, "end": { "line": 3, "column": 27 } },
+      "1": { "start": { "line": 4, "column": 4 }, "end": { "line": 4, "column": 24 } },
+      "2": { "start": { "line": 8, "column": 0 }, "end": { "line": 8, "column": 23 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 2, "column": 2 }, "end": { "line": 2, "column": 3 } },
+        "loc": { "start": { "line": 2, "column": 23 }, "end": { "line": 5, "column": 3 } },
+        "line": 2
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 4, "1": 4, "2": 1 },
+    "f": { "0": 4 },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2e2ce4e9c9d170e4148a5c83e49ed29f776664e8"
+  },
+  "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\validation\\ValidationError.js": {
+    "path": "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\validation\\ValidationError.js",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 14 }, "end": { "line": 1, "column": 32 } },
+      "1": { "start": { "line": 5, "column": 4 }, "end": { "line": 5, "column": 19 } },
+      "2": { "start": { "line": 6, "column": 4 }, "end": { "line": 6, "column": 35 } },
+      "3": { "start": { "line": 9, "column": 0 }, "end": { "line": 9, "column": 33 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 4, "column": 2 }, "end": { "line": 4, "column": 3 } },
+        "loc": { "start": { "line": 4, "column": 23 }, "end": { "line": 7, "column": 3 } },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 1, "1": 2, "2": 2, "3": 1 },
+    "f": { "0": 2 },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f23c4155d79257b077c7a9d002d941130eb9b367"
+  },
+  "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\validation\\validation.js": {
+    "path": "C:\\Users\\user\\Desktop\\project\\Nodejs-2021Q4\\ciphering-cli-tool\\src\\streams\\validation\\validation.js",
+    "statementMap": {
+      "0": { "start": { "line": 1, "column": 11 }, "end": { "line": 1, "column": 24 } },
+      "1": { "start": { "line": 2, "column": 13 }, "end": { "line": 2, "column": 28 } },
+      "2": { "start": { "line": 3, "column": 24 }, "end": { "line": 3, "column": 52 } },
+      "3": { "start": { "line": 4, "column": 14 }, "end": { "line": 4, "column": 32 } },
+      "4": { "start": { "line": 6, "column": 21 }, "end": { "line": 16, "column": 1 } },
+      "5": { "start": { "line": 7, "column": 2 }, "end": { "line": 15, "column": 3 } },
+      "6": { "start": { "line": 8, "column": 4 }, "end": { "line": 10, "column": 5 } },
+      "7": { "start": { "line": 9, "column": 6 }, "end": { "line": 9, "column": 41 } },
+      "8": { "start": { "line": 12, "column": 21 }, "end": { "line": 12, "column": 40 } },
+      "9": { "start": { "line": 13, "column": 4 }, "end": { "line": 13, "column": 68 } },
+      "10": { "start": { "line": 14, "column": 4 }, "end": { "line": 14, "column": 20 } },
+      "11": { "start": { "line": 18, "column": 23 }, "end": { "line": 21, "column": 1 } },
+      "12": { "start": { "line": 19, "column": 2 }, "end": { "line": 19, "column": 66 } },
+      "13": { "start": { "line": 20, "column": 2 }, "end": { "line": 20, "column": 18 } },
+      "14": { "start": { "line": 23, "column": 23 }, "end": { "line": 44, "column": 1 } },
+      "15": { "start": { "line": 24, "column": 2 }, "end": { "line": 43, "column": 3 } },
+      "16": { "start": { "line": 25, "column": 4 }, "end": { "line": 27, "column": 5 } },
+      "17": { "start": { "line": 26, "column": 6 }, "end": { "line": 26, "column": 56 } },
+      "18": { "start": { "line": 28, "column": 22 }, "end": { "line": 28, "column": 39 } },
+      "19": { "start": { "line": 30, "column": 4 }, "end": { "line": 39, "column": 5 } },
+      "20": { "start": { "line": 30, "column": 17 }, "end": { "line": 30, "column": 18 } },
+      "21": { "start": { "line": 31, "column": 19 }, "end": { "line": 31, "column": 43 } },
+      "22": { "start": { "line": 32, "column": 19 }, "end": { "line": 32, "column": 28 } },
+      "23": { "start": { "line": 33, "column": 15 }, "end": { "line": 33, "column": 24 } },
+      "24": { "start": { "line": 34, "column": 27 }, "end": { "line": 34, "column": 117 } },
+      "25": { "start": { "line": 35, "column": 26 }, "end": { "line": 35, "column": 67 } },
+      "26": { "start": { "line": 36, "column": 6 }, "end": { "line": 38, "column": 7 } },
+      "27": { "start": { "line": 37, "column": 8 }, "end": { "line": 37, "column": 58 } },
+      "28": { "start": { "line": 41, "column": 4 }, "end": { "line": 41, "column": 56 } },
+      "29": { "start": { "line": 42, "column": 4 }, "end": { "line": 42, "column": 20 } },
+      "30": { "start": { "line": 46, "column": 0 }, "end": { "line": 46, "column": 66 } }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": { "start": { "line": 6, "column": 21 }, "end": { "line": 6, "column": 22 } },
+        "loc": { "start": { "line": 6, "column": 31 }, "end": { "line": 16, "column": 1 } },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": { "start": { "line": 18, "column": 23 }, "end": { "line": 18, "column": 24 } },
+        "loc": { "start": { "line": 18, "column": 35 }, "end": { "line": 21, "column": 1 } },
+        "line": 18
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": { "start": { "line": 23, "column": 23 }, "end": { "line": 23, "column": 24 } },
+        "loc": { "start": { "line": 23, "column": 35 }, "end": { "line": 44, "column": 1 } },
+        "line": 23
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": { "start": { "line": 8, "column": 4 }, "end": { "line": 10, "column": 5 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 8, "column": 4 }, "end": { "line": 10, "column": 5 } },
+          { "start": {}, "end": {} }
+        ],
+        "line": 8
+      },
+      "1": {
+        "loc": { "start": { "line": 8, "column": 8 }, "end": { "line": 8, "column": 36 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 8, "column": 8 }, "end": { "line": 8, "column": 28 } },
+          { "start": { "line": 8, "column": 32 }, "end": { "line": 8, "column": 36 } }
+        ],
+        "line": 8
+      },
+      "2": {
+        "loc": { "start": { "line": 25, "column": 4 }, "end": { "line": 27, "column": 5 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 25, "column": 4 }, "end": { "line": 27, "column": 5 } },
+          { "start": {}, "end": {} }
+        ],
+        "line": 25
+      },
+      "3": {
+        "loc": { "start": { "line": 34, "column": 27 }, "end": { "line": 34, "column": 117 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 34, "column": 28 }, "end": { "line": 34, "column": 39 } },
+          { "start": { "line": 34, "column": 43 }, "end": { "line": 34, "column": 54 } },
+          { "start": { "line": 34, "column": 60 }, "end": { "line": 34, "column": 71 } },
+          { "start": { "line": 34, "column": 75 }, "end": { "line": 34, "column": 86 } },
+          { "start": { "line": 34, "column": 91 }, "end": { "line": 34, "column": 117 } }
+        ],
+        "line": 34
+      },
+      "4": {
+        "loc": { "start": { "line": 35, "column": 26 }, "end": { "line": 35, "column": 67 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 35, "column": 26 }, "end": { "line": 35, "column": 37 } },
+          { "start": { "line": 35, "column": 41 }, "end": { "line": 35, "column": 67 } }
+        ],
+        "line": 35
+      },
+      "5": {
+        "loc": { "start": { "line": 36, "column": 6 }, "end": { "line": 38, "column": 7 } },
+        "type": "if",
+        "locations": [
+          { "start": { "line": 36, "column": 6 }, "end": { "line": 38, "column": 7 } },
+          { "start": {}, "end": {} }
+        ],
+        "line": 36
+      },
+      "6": {
+        "loc": { "start": { "line": 36, "column": 10 }, "end": { "line": 36, "column": 39 } },
+        "type": "binary-expr",
+        "locations": [
+          { "start": { "line": 36, "column": 10 }, "end": { "line": 36, "column": 23 } },
+          { "start": { "line": 36, "column": 27 }, "end": { "line": 36, "column": 39 } }
+        ],
+        "line": 36
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 9,
+      "6": 9,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 3,
+      "16": 3,
+      "17": 1,
+      "18": 2,
+      "19": 2,
+      "20": 2,
+      "21": 8,
+      "22": 8,
+      "23": 8,
+      "24": 8,
+      "25": 8,
+      "26": 8,
+      "27": 1,
+      "28": 2,
+      "29": 2,
+      "30": 1
+    },
+    "f": { "0": 9, "1": 1, "2": 3 },
+    "b": { "0": [2, 7], "1": [9, 7], "2": [1, 2], "3": [8, 4, 6, 1, 5], "4": [8, 2], "5": [1, 7], "6": [8, 3] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "1caf65d24a01d4e9d575edbc5b43ecb859185f78"
+  }
+}
